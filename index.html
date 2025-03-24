@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile">
+                <div class="profile-image">
+                    <!-- Replace with your image -->
+                    <img src="https://via.placeholder.com/180" alt="Profile Image">
+                </div>
+                <div class="profile-info">
+                    <h1>Your Name</h1>
+                    <p>Developer | Tech Enthusiast | Creator</p>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="about" class="section">
+                <h2>About Me</h2>
+                <p>Hello! I'm a passionate tech enthusiast and developer with a keen interest in creating meaningful digital experiences. I love working with cutting-edge technologies and building useful applications that solve real-world problems.</p>
+                <p class="about-highlight">When I'm not coding, you can find me exploring new tech trends, contributing to open-source projects, or sharing knowledge with the developer community.</p>
+            </section>
+
+            <section id="projects" class="section">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Project 1</h3>
+                        <p>Description of your first project. What technologies did you use? What problems did you solve?</p>
+                        <a href="#" class="btn">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Project 2</h3>
+                        <p>Description of your second project. Highlight your achievements and the impact of your work.</p>
+                        <a href="#" class="btn">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Project 3</h3>
+                        <p>Description of your third project. What makes this project special?</p>
+                        <a href="#" class="btn">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="awards" class="section">
+                <h2>Awards & Honors</h2>
+                <div class="awards-container">
+                    <div class="award-item">
+                        <div class="award-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="award-content">
+                            <h3>Award Title 1</h3>
+                            <p class="award-issuer">Issuing Organization</p>
+                            <p class="award-date">January 2023</p>
+                            <p class="award-description">Brief description of this award and why you received it. What accomplishment did this award recognize?</p>
+                        </div>
+                    </div>
+                    
+                    <div class="award-item">
+                        <div class="award-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="award-content">
+                            <h3>Award Title 2</h3>
+                            <p class="award-issuer">Issuing Organization</p>
+                            <p class="award-date">June 2022</p>
+                            <p class="award-description">Brief description of this award and why you received it. Mention the criteria or achievements that led to this recognition.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="award-item">
+                        <div class="award-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="award-content">
+                            <h3>Honor/Recognition 3</h3>
+                            <p class="award-issuer">Recognizing Organization</p>
+                            <p class="award-date">November 2021</p>
+                            <p class="award-description">Brief description of this honor or recognition. How does this acknowledge your expertise or contribution to the field?</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="section">
+                <h2>Skills & Technologies</h2>
+                <div class="skills-container">
+                    <div class="skill"><i class="fab fa-html5"></i> HTML5</div>
+                    <div class="skill"><i class="fab fa-css3-alt"></i> CSS3</div>
+                    <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
+                    <div class="skill"><i class="fab fa-react"></i> React</div>
+                    <div class="skill"><i class="fab fa-node-js"></i> Node.js</div>
+                    <div class="skill"><i class="fab fa-python"></i> Python</div>
+                    <div class="skill"><i class="fab fa-git-alt"></i> Git</div>
+                    <div class="skill"><i class="fas fa-database"></i> SQL</div>
+                    <div class="skill"><i class="fas fa-paint-brush"></i> UI/UX</div>
+                    <div class="skill"><i class="fas fa-mobile-alt"></i> Responsive</div>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out to me through any of these platforms:</p>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto:your.email@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 Your Name. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
